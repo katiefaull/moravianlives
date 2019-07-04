@@ -1,5 +1,5 @@
-<?xml-model href="http://moravianlives.bucknell.edu/schema/MoravianMemoirs.xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../../TEI_Memoirs/out/MoravianMemoirs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../TEI_Memoirs/out/MoravianMemoirs.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -104,7 +104,7 @@
             <div type="page" n="1">
                <head type="page">1</head>
                <pb n="1" facs="http://moravianlives.bucknell.edu/MAF/Ful_SS_65Horsfall-01.jpg" />
-               <p>The married <addName en="sister">Sr</addName> <persName>Sar: Horsefall</persName> was born at <placeName>Barnsley</placeName>
+               <p>The married <roleName en="sister">Sr</roleName> <persName>Sar: Horsefall</persName> was born at <placeName>Barnsley</placeName>
                   <date type="birth" when-iso="1697-12-05">Decr: 5<hi rend="superscript">th</hi> 1697</date>. Her Parents being religious Members of the <orgName>Church
                   of England</orgName> bro<hi rend="superscript">t</hi> her up in the same way, and when her Father
                   was about to depart this Life, which happened when the
