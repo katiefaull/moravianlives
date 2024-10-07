@@ -1,6 +1,4 @@
-<?xml-model href="../../TEI_Memoirs/out/MoravianMemoirs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../../TEI_Memoirs/out/MoravianMemoirs.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -90,15 +88,15 @@
 					<msIdentifier>
 						<repository>Moravian Archives: Fulneck, UK</repository>
 						<msName type="memoir" ana="Ful_3_42_DarnbrookJohn">Name</msName>
-						<msName facs="http://moravianlives.bucknell.edu/MAF/Ful_3_42_DarnbrookJohn-01.jpg" />
-						<msName facs="http://moravianlives.bucknell.edu/MAF/Ful_3_42_DarnbrookJohn-02.jpg" />
-						<msName facs="http://moravianlives.bucknell.edu/MAF/Ful_3_42_DarnbrookJohn-04.jpg" />
-						<msName facs="http://moravianlives.bucknell.edu/MAF/Ful_3_42_DarnbrookJohn-05.jpg" />
+						<msName facs="http://moravianlives.bucknell.edu/MAF/Ful_3_42_DarnbrookJohn-01.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MAF/Ful_3_42_DarnbrookJohn-02.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MAF/Ful_3_42_DarnbrookJohn-04.jpg"/>
+						<msName facs="http://moravianlives.bucknell.edu/MAF/Ful_3_42_DarnbrookJohn-05.jpg"/>
 					</msIdentifier>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
-		<revisionDesc>
+		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><revisionDesc>
 			<change when="2019-07-08" who="#jschaumberger">Finished markup</change>
 			<change when="2019-07-03" who="#jschaumberger">Started markup of the memoir</change>
 			<change when="2019-07-02" who="#JAKA1">Created John Darnbrook memoir file</change>
@@ -111,7 +109,7 @@
 				<head>John Darnbrook</head>
 				<div type="page" n="1">
 					<head type="page">1</head>
-					<pb n="1" facs="http://moravianlives.bucknell.edu/MAF/Ful_3_42_DarnbrookJohn-01.jpg" />
+					<pb n="1" facs="http://moravianlives.bucknell.edu/MAF/Ful_3_42_DarnbrookJohn-01.jpg"/>
 			<p>
 				Course of Life of the S <roleName en="brother">Br</roleName> <persName ref="#mlper000549">John Darnbrook</persName>,
 					the first part of which he himself has wrote down,
@@ -121,7 +119,7 @@
 					care to instruct me in what was religious, to the best of their
 					knowledge, particularly my Mother, whom I remember, when M<hi rend="superscript">r</hi>
 				<persName ref="#mlper000536">Ingham</persName> and other awakened Men first began preaching, she went
-					frequently to hear them, &amp; a Sermon of M<hi rend="superscript">r</hi> <persName>Whitfield</persName>&apos;s being
+					frequently to hear them, &amp; a Sermon of M<hi rend="superscript">r</hi> <persName>Whitfield</persName>'s being
 					then published, she got it to read. I read the same, it treated
 					so much of the Sufferings of our <persName type="diety">Sav<hi rend="superscript">r</hi></persName>, that if brought me into
 					some Concern about my Salvation, <date when-iso="1725" cert="medium">I was then about 5 years old </date>
@@ -152,7 +150,7 @@
 				</div>
 				<div type="page" n="2">
 					<head type="page">2</head>
-					<pb n="2" facs="http://moravianlives.bucknell.edu/MAF/Ful_3_42_DarnbrookJohn-02.jpg" />					
+					<pb n="2" facs="http://moravianlives.bucknell.edu/MAF/Ful_3_42_DarnbrookJohn-02.jpg"/>					
 			<p>
 
 					made <persName type="diety">God</persName> amends. But I soon perhaps came into see very Prick of 
@@ -163,7 +161,7 @@
 					me. I think, I spent near 2 Years in this miserable Course.</p>
 					<p>				
 					At <date when-iso="1754-04-14" cert="medium">Easter in the year 1754</date> (as well as I can remember) I
-					thought, I would go a hear the <orgName>Moravians</orgName>, tho&apos; I had no liking for
+					thought, I would go a hear the <orgName>Moravians</orgName>, tho' I had no liking for
 					them, because I believed them to be <orgName>Roman-Catholicks</orgName>. However I
 					went &amp; heard <roleName en="brother">B<hi rend="superscript">r</hi></roleName> <persName>La Trobe</persName> to my great Astonishment Such a <name event="religious">Sermon</name> 
 						I never had heard in all my Life before, I thought directly,
@@ -208,8 +206,8 @@
 					I got into the Way pretty well. We sailed from the River <add place="above">the</add> latter end of
 					March, &amp; we were not long out at Sea, before I was sick &amp; confined so
 					for 15 Days. I thought many Times, if I was on Shore, they should be Sai-
-					lors who would for me, But when I got better, I came thro&apos; pretty well,
-					as I had no ship&apos;s duty to do. It was a very cold uncomfortable voyage
+					lors who would for me, But when I got better, I came thro' pretty well,
+					as I had no ship's duty to do. It was a very cold uncomfortable voyage
 					for about 4 months we returned very unsuccessfull, having got no more
 					than one fish; I got from the Ship as soon I could, weary enough of my
 					first Voyage.</p>
@@ -219,7 +217,7 @@
 					wanted people? He said, he did &amp; gave me an Order to go on Board. I
 					immediately went on board &amp; met with a Company of very wicked, curs-
 					ing &amp; swearing <name occupation="sailor">sailors</name>. However we got ready &amp; put to Sea; About 2 months 
-					after our Ship&apos;s company was seized by turns with a <name health="disease" type="fever">violent Feaver</name>. I
+					after our Ship's company was seized by turns with a <name health="disease" type="fever">violent Feaver</name>. I
 					also fell sick &amp; it brought me very near my Dissolution. While
 					we were so sick, we hung altogether by ourselves, It was one of the most
 					shocking Times, I have had in all any Life, most of them died cursing
@@ -242,7 +240,7 @@
 				
 				<div type="page" n="3">
 					<head type="page">3</head>
-					<pb n="3" facs="http://moravianlives.bucknell.edu/MAF/Ful_3_42_DarnbrookJohn-03.jpg" />	
+					<pb n="3" facs="http://moravianlives.bucknell.edu/MAF/Ful_3_42_DarnbrookJohn-03.jpg"/>	
 			<p>
 
 					were obliged to take in old Stores in the <placeName>East Indies</placeName> which were very bad &amp;
@@ -252,7 +250,7 @@
 					till the ship was paid off. &amp; then according to my Resolution of going to Sea
 					no more, I began to look for a Place where I could earn my Bread &amp; by
 					the Help of a Friend I got a good one in <placeName>Cheapside</placeName>, where I lived very
-					agreeably 6 moths &amp; I found they had great confidence towards me.</p>
+					agreeably 6 months &amp; I found they had great confidence towards me.</p>
 					<p>
 					But the ship beginning to be fitted out again, <hi rend="strikethrough">where</hi> <add place="above">which</add> I had her with
 					before, it made me very unsettled in my Mind &amp; I got a desire to go to
@@ -314,7 +312,7 @@
 					my Friend &amp; told him any Circumstances. He went directly &amp; put
 					the Bond &amp; Judgment in Force, &amp; took all I had &amp; came to me next 
 					Morning &amp; paid the Money, for which I was arrested, &amp; set me at
-					Liberty. I had now no home, but went some Times to one Friend&apos;s
+					Liberty. I had now no home, but went some Times to one Friend's
 					House, &amp; some times to another, where I had been formerly acquainted.
 					But this I could not do very long, &amp; it came so far, that I suffered
 					till to the Bareness of Life. One Day I met in the street one of
@@ -323,14 +321,14 @@
 					Circumstances, I served in their Shop a few Weeks, &amp; then they 
 					hired me as a yearly <name occupation="servant">Servant</name>. I lived there very agreeably, &amp; some
 				years ago, they did write to me to <placeName ref="#mlpla000003">Fulneck</placeName>, that I should come <add place="above">again</add> &amp; live
-					with them. After some Time I called at a <placeName>Barber&apos;s Shop</placeName> to get 
+					with them. After some Time I called at a <placeName>Barber's Shop</placeName> to get 
 					shaved pretty late in the Evening; while I sat there, I thought I
 				
 			</p>
 				</div>
 				<div type="page" n="3">
 					<head type="page">3</head>
-					<pb n="3" facs="http://moravianlives.bucknell.edu/MAF/Ful_3_42_DarnbrookJohn-04.jpg" />	
+					<pb n="3" facs="http://moravianlives.bucknell.edu/MAF/Ful_3_42_DarnbrookJohn-04.jpg"/>	
 			<p>
 					was going to die. I got up &amp; said, I was very bad; but no Body gave me any Answer.
 					I stood at the Door, till some Body, who was before me, was shaved; then I got in &amp;
@@ -390,7 +388,7 @@
 					fixed a Day, that I would go &amp; speak with him again. He asked, if I
 					should rule to speak with him, &amp; if it would suit me that time, if
 					I had an Opportunity for it? I answered: yes, I had no objection to it
-					So we turned back both together &amp; went to Roll&apos;s Buildings. As soon 
+					So we turned back both together &amp; went to Roll's Buildings. As soon 
 					as we got into the House, we met <roleName en="brother">B<hi rend="superscript">r</hi></roleName> <persName>Brodersen</persName> in the Passage, &amp;
 					he took me into his Room &amp; we had some pretty Conversation together.
 					The Choir Liturgy was going to begin, &amp; he gave one Leave to be at
@@ -403,7 +401,7 @@
 					a Covenant that time with our <persName type="diety">Sav<hi rend="superscript">r</hi></persName> to be his for ever I spent my
 					time for the most part in a very happy Track of Grace, considering
 					my Situation, wherein I was, &amp; I had many near Visits of our <persName type="diety">Sav<hi rend="superscript">r</hi></persName>,
-					which made my Time very pleasant. Tho&apos; I felt naturally my depraved
+					which made my Time very pleasant. Tho' I felt naturally my depraved
 					human Nature, but I applied to him &amp; got preserved. When
 				<roleName en="brother">B<hi rend="superscript">r</hi></roleName>. <persName>Abraham</persName> returned from the <name event="religious">Provincial Synod</name> at <placeName ref="#mlpla000003">Fulneck</placeName>, he
 					acquainted me that they had made it out in a Conference that if I did
@@ -418,7 +416,7 @@
 				</div>
 					<div type="page" n="4">
 						<head type="page">4</head>
-						<pb n="4" facs="http://moravianlives.bucknell.edu/MAF/Ful_3_42_DarnbrookJohn-05.jpg" />	
+						<pb n="4" facs="http://moravianlives.bucknell.edu/MAF/Ful_3_42_DarnbrookJohn-05.jpg"/>	
 			<p>
 					Thing in the World, which I must experience, but I found, there was nothing
 					but fantom, Now often have I thought of <placeName ref="#mlpla000003">Fulneck</placeName> &amp; wished me to be
@@ -442,7 +440,7 @@
 					afterwards told, that he enjoyed a particular Nearness of our <persName type="diety">Sav<hi rend="superscript">r</hi></persName> at
 					the <name event="religious">Cup of Covenant</name>. <date when-iso="1769">Last Year</date> he was made <hi rend="strikethrough">and</hi> a Candidate for
 					the <placeName>East Indies</placeName>, which he accepted of: for he was very willing to serve
-					our <persName type="diety">Sav<hi rend="superscript">r</hi></persName>, wheresoever his Service should require it, tho&apos; on Account of
+					our <persName type="diety">Sav<hi rend="superscript">r</hi></persName>, wheresoever his Service should require it, tho' on Account of
 					his weakly Constitution he had but <name type="emotion">little Hopes</name> to be of any Use in the
 					Service of our <persName type="diety">Sav<hi rend="superscript">r</hi></persName> among the Heathen. That time he came among the 
 					Intercessors, which was very weighty to him. But our <persName type="diety">Sav<hi rend="superscript">r</hi></persName>, who was
@@ -452,7 +450,7 @@
 					he would go home of this Opportunity, but he soon thought so &amp; was quite
 					set upon going home. Here he had a sabbatical time in the Nearness &amp;
 					converse with our <persName type="diety">Sav<hi rend="superscript">r</hi></persName> <add place="above">tho; it was a Shool-Time for him too, inwhich he had to learnmany Lessons &amp; to speak thoroughly with our d<hi rend="superscript">r</hi>. <persName type="diety">Sav<hi rend="superscript">r</hi></persName>. about many Things.</add>
-					Once he said: tho&apos; our <persName type="diety">Sav<hi rend="superscript">r</hi></persName> has had so great a
+					Once he said: tho' our <persName type="diety">Sav<hi rend="superscript">r</hi></persName> has had so great a
 					Mercy upon me, yet I feel myself often so indifferent towards Him, which
 					is <name type="emotion">the greatest Pain</name>, I have in the <placeName>Sick Room</placeName>; at which he wept very much.
 					But he soon was comforted again &amp; cheared by a gracious Look of our <persName type="diety">Saviour</persName>.
@@ -463,7 +461,7 @@
 					got it easier. He was present to himself to the last Moment, when the
 					Blessings of his <orgName>Choir</orgName> &amp; the <orgName>Congreg<hi rend="superscript">n</hi></orgName> was imparted unto him during a
 					sweet <add place="above">feeling</add> of our <persName type="diety">Sav<hi rend="superscript">rs</hi></persName> Nearess, &amp; soon after his Soul departed into the
-					arms &amp; Bosom of <persName type="diety">Jesus</persName>, <date type="death" cause="disease" when-iso="1770-02-06">last Tuesday about 7 o&apos;Clock in the Morning, viz
+					arms &amp; Bosom of <persName type="diety">Jesus</persName>, <date type="death" cause="disease" when-iso="1770-02-06">last Tuesday about 7 o'Clock in the Morning, viz
 					Feby the 6<hi rend="superscript">th</hi> 1770</date> in the 34<hi rend="superscript">th</hi> year of his Age.
 					Praise to thee, our God, be brought for this Sinner redeemed with thy Blood.
 				</p>
